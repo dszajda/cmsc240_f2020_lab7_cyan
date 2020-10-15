@@ -1,12 +1,12 @@
 EXECS = tester
-OBJS = Shape.o
+OBJS = Shape.o tester.o
 
 CC = g++
 CCFLAGS = -std=c++17 -Wall -Wno-deprecated -Werror=return-type -g
 
 all: $(EXECS)
 
-VectorTester: $(OBJS)
+tester: $(OBJS)
 	$(CC) $(CCFLAGS) $^ -o $@
 
 %.o: %.cpp *.h
