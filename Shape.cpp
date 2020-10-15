@@ -8,11 +8,7 @@ Shape::~Shape(){}
 
 
 
-double Shape::getArea(){
-
-}
+double Shape::getArea(){return 0.00;}
 
 
-void Shape::print(){
-  
-}
+void Shape::print(){}
