@@ -32,5 +32,15 @@ int main(){
   std::cout << "getArea: " << t.getArea() << std::endl;
   t.print();
 
+  std::cout << "----------------" << std::endl;
+  std::cout << "Rectangle:" << std::endl;
+  std::cout << "----------------" << std::endl;
+  Rectangle r("nice4", 3, 4);
+  std::cout << "getArea: " << r.getArea() << std::endl;
+  r.print();
+
+
+
+
   return 0;
 }
