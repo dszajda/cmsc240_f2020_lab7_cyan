@@ -39,6 +39,8 @@ int main(){
   std::cout << "getArea: " << r.getArea() << std::endl;
   r.print();
 
+  std::cout << "----------------" << std::endl;
+  std::cout << "----------------" << std::endl;
 
 
 

@@ -16,8 +16,8 @@ double Rectangle::getArea(){
 }
 void Rectangle::print(){
   Shape::print();
-  std::cout << "width: " << width <<endl;
-  std::cout << "height: " << height <<endl;
+  std::cout << "width: " << width <<std::endl;
+  std::cout << "height: " << height <<std::endl;
 }
 
 #endif

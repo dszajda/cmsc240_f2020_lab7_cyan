@@ -6,7 +6,7 @@
 
 class Rectangle : public Shape {
   private:
-    double base;
+    double width;
     double height;
 
   public:
