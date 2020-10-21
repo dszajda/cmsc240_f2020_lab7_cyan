@@ -6,18 +6,18 @@
 #include <iostream>
 
 Rectangle::Rectangle(std::string name, double width, double height)
-: Shape(name), width(width),height(height){}
+: Shape(name), w{width},hei{height}{}
 
 Rectangle::~Rectangle(){}
 
 
 double Rectangle::getArea(){
-  return width * height;
+  return w * hei;
 }
 void Rectangle::print(){
   Shape::print();
-  std::cout << "width: " << width <<std::endl;
-  std::cout << "height: " << height <<std::endl;
+  std::cout << "width: " << w <<std::endl;
+  std::cout << "height: " << hei <<std::endl;
 }
 
 #endif

@@ -7,7 +7,7 @@
 class Circle : public Shape {
   private:
     const long double PI = 3.141592653589793238L;
-    double radius;
+    double r;
 
   public:
     Circle();

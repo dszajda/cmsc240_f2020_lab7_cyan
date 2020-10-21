@@ -6,18 +6,18 @@
 #include <iostream>
 
 Triangle::Triangle(std::string name, double base, double height)
-: Shape(name), base(base),height(height){}
+: Shape(name), b{base},h{height}{}
 
 Triangle::~Triangle(){}
 
 
 double Triangle::getArea(){
-  return 0.5 * base * height;
+  return 0.5 * b * h;
 }
 void Triangle::print(){
   Shape::print();
-  std::cout << "base: " << base << std::endl;
-  std::cout << "height: " << height << std::endl;
+  std::cout << "base: " << b << std::endl;
+  std::cout << "height: " << h << std::endl;
 }
 
 #endif

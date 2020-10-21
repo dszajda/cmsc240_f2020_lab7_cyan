@@ -6,17 +6,17 @@
 #include <iostream>
 
 Circle::Circle(std::string name, double radius)
-: Shape(name), radius(radius){}
+: Shape(name), r{radius}{}
 
 Circle::~Circle(){}
 
 
 double Circle::getArea(){
-  return PI * radius * radius;
+  return PI * r * r;
 }
 void Circle::print(){
   Shape::print();
-  std::cout << "raduis: " << radius << std::endl;
+  std::cout << "raduis: " << r << std::endl;
 }
 
 #endif
